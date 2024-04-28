@@ -1,0 +1,34 @@
+@import url("chota.css");
+
+/* chota and dark mode config */
+
+:root {
+    --bg-color: #ffffff;
+    --font-color: #000000;
+    --color-primary: #e24d7a;
+    --color-darkGrey: #3f4144;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+	--bg-color: #000000;
+	--font-color: #ffffff;
+	--color-darkGrey: #c0bebb;
+    }
+}
+
+/* header */
+
+.topbar {
+    top: 0rem;
+    margin: 0rem;
+    padding: 0rem;
+    z-index: 32;
+}
+
+iframe.topbar {
+	border: none;
+	height: 4.5rem;
+	margin: 0rem;
+	padding: 0rem;
+}
