@@ -19,6 +19,10 @@
 
 /* header */
 
+p {
+  background-image: url('img_girl.jpg');
+}
+
 .topbar {
     top: 0rem;
     margin: 0rem;
