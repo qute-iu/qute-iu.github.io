@@ -21,9 +21,9 @@
 
 
 .topbar {
-    top: 2rem;
-    margin: 2rem;
-    padding: 2rem;
+    top: 0rem;
+    margin: 0rem;
+    padding: 0rem;
     z-index: 60;
 }
 
