@@ -18,37 +18,6 @@
 }
 
 /* header */
-/* Resetting default margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Basic styling for the layout */
-.container {
-    display: flex;
-    justify-content: space-between; /* Align columns to the sides */
-    background-color: #C36121; /* Background color for the entire layout */
-}
-
-.sidebar {
-    width: 100px; /* Adjust the width of the sidebars as needed */
-    height: 100vh; /* Full height of the viewport */
-}
-
-.sidebar-left {
-    background-color: red; /* Red color for left sidebar */
-}
-
-.sidebar-right {
-    background-color: red; /* Red color for right sidebar */
-}
-
-.main-content {
-    flex: 1; /* Allows the main content to take up remaining space */
-    padding: 2px; /* Adds padding inside the main content area */
-}
 
 .topbar {
     top: 0rem;
