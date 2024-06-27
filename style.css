@@ -1,139 +1,104 @@
-/************* GENERAL CSS ************/
+@import url("chota.css");
+
+/* chota and dark mode config */
+
+:root {
+    --bg-color: #ffffff;
+    --font-color: #000000;
+    --color-primary: #e24d7a;
+    --color-darkGrey: #3f4144;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+	--bg-color: #000000;
+	--font-color: #ffffff;
+	--color-darkGrey: #c0bebb;
+    }
+}
+
+/* header */
+
+
+.topbar {
+    top: 0rem;
+    margin: 0rem;
+    padding: 0rem;
+    z-index: 60;
+}
+
+iframe.topbar {
+	border: none;
+	height: 6rem;
+	margin: 0rem;
+	padding: 0rem;
+}
 
 body {
-	margin: 0px;
-	padding: 0px;
-	background: #7D110C url(images/back-footer.png) repeat-y center top;
-	text-align: justify;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 13px;
-	color: #000000
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: Verdana, Book Antiqua, "Times New Roman", Times, serif;
-	color: #7D110C;
+html {
+  box-sizing: border-box;
 }
 
-a {	
-	text-decoration: none;
-	color: #0066CC;
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
-a:hover {
-	text-decoration: underline;
-	color: #0066CC;
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
 }
 
-/************* MENU ************/
-
-#menu {
-	width: 1019px;
-	margin: 0px auto;
-	padding: 0px 0px 0px 0px;
-	background-color: #FFFFFF;
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 15px;
 }
 
-#menul {
-	float: left;
-	width: 400px;
-	margin: 0px 0px 0px 0px;
-	padding: 10px 0px 10px 0px;
-	background-color: #FFFFFF;
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
 }
 
-#menur {
-	float: right;
-	width: 619px;
-	margin: 0px auto;
-	padding: 52px 0px 52px 0px;
-	background-color: #FFFFFF;
+.container {
+  padding: 0 16px;
 }
 
-#menur ul {
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
-	text-align: center;
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
-#menur li {
-	display: inline;
+.title {
+  color: grey;
 }
 
-#menur a {
-	padding: 5px 15px;
-	text-transform: uppercase;
-	text-decoration: none;
-	font-size: 16px;
-	color: #7D110C;
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
 }
 
-#menur a:hover {
-	background-color: #7D110C;
-	color: #FFFFFF;
+.button:hover {
+  background-color: #555;
 }
 
-
-/************* IMGBREAK STUFF ************/
-
-#imgbreak {
-	width: 1020px;
-	height: 400px;
-	margin: 0px auto;
-	padding: 2px 0px 2px 0px;
-	background: #82786F;
-}
-
-#imgbreak h1 {
-	margin: 0px;
-	padding: 0px 0px 0px 10px;
-	text-align: left;
-	color: #FFFFFF;
-	font-size: 3em;
-}
-
-#imgbreak h2 {
-	margin: 0px;
-	padding: 0px 0px 0px 20px;
-	text-align: left;
-	font-size: 1.5em;
-	text-transform: uppercase;
-}
-
-
-/************* CONTENT ************/
-
-#content {
-	width: 1020px;
-	margin: 0px auto;
-	padding: 20px 0px 0px 0px;
-}
-
-#content h2, #content h3, #content h4, #content h5, #content h6 {
-	font-weight: normal;
-}
-
-#content p, #content ul, #content ol {
-	line-height: 150%;
-}
-
-#left {
-	float: left;
-	width: 980px;
-	padding: 0px 20px 40px 20px;
-}
-
-/************* FOOTER ************/
-
-#footer {
-	clear: both;
-	width: 1021px;
-	margin: 0px auto;
-	border-top: 1px solid #666666;
-	background: url(images/back-footer.png) repeat-y center top;
-	font-size: 9px;
-	text-align: center;
-	padding: 2px;
-	color: #333333;
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
 }
