@@ -29,7 +29,7 @@
 .container {
     display: flex;
     justify-content: space-between; /* Align columns to the sides */
-    background-color: #f0f0f0; /* Background color for the entire layout */
+    background-color: #C36121; /* Background color for the entire layout */
 }
 
 .sidebar {
@@ -47,7 +47,7 @@
 
 .main-content {
     flex: 1; /* Allows the main content to take up remaining space */
-    padding: 20px; /* Adds padding inside the main content area */
+    padding: 2px; /* Adds padding inside the main content area */
 }
 
 .topbar {
