@@ -107,6 +107,10 @@ h3 {
   text-align: center; /* Adjust alignment */
 }
 
+.button-container {
+  text-align: center; /* Align buttons to the center */
+}
+
 .button {
   border: none;
   outline: 0;
