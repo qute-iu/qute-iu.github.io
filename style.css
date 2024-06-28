@@ -22,6 +22,11 @@ p {
     text-align: left;
 }
 
+p1 {
+    color: black;
+    text-align: center;
+}
+
 ul {
     color: black;
     text-align: left;
