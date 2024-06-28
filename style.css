@@ -19,10 +19,12 @@
 
 p {
     color: black;
+    text-align: left;
 }
 
 ul {
     color: black;
+    text-align: left;
 }
 /* header */
 
