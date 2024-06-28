@@ -101,7 +101,9 @@ h3 {
 }
 
 .title {
-  color: grey;
+  color: red;
+  font-family: monospace;
+  font-size: 1.5rem; /* Adjust as needed */
 }
 
 .button {
