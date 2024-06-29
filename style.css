@@ -62,13 +62,13 @@ table {
 }
 
 th, td {
-        border: 1px solid #dddddd;
+        border: 1px solid #000000;
         text-align: left;
         padding: 8px;
 }
 
 th {
-        background-color: #f2f2f2;
+        background-color: #A91A1A;
 }
 
 body {
