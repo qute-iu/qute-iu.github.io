@@ -52,10 +52,11 @@ video {
 
 .video-container {
     max-width: 800px;
-    margin: 20px auto;
+    margin: 35px auto;
     background-color: #fff;
     border-radius: 8px;
     overflow: hidden;
+    float: left;
 }
 
  .video-container video {
