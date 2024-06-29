@@ -41,6 +41,51 @@ ul1 {
 }
 /* header */
 
+video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    outline: none; /* Remove outline when focused (for accessibility) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+ .video-container video {
+    width: 100%;
+}
+
+ .video-container .controls {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .video-container .controls button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    outline: none;
+    margin: 0 10px;
+}
+
+ .video-container .controls button:hover {
+    opacity: 0.7;
+}
+
 
 .topbar {
     top: 0rem;
