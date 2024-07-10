@@ -128,7 +128,7 @@ html {
 }
 
 h2 {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Lucida Console", Courier, monospace;
     font-size: 4.0rem; /* Adjust as needed */
     color: #000000; /* Example text color */
     text-align: left; /* Adjust alignment */
@@ -136,7 +136,7 @@ h2 {
 }
 
 h3 {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Lucida Console", Courier, monospace;
     font-size: 2.4rem; /* Adjust as needed */
     color: #000000; /* Example text color */
     text-align: center; /* Adjust alignment */
